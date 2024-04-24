@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\desenvolvimento\\projetos\\TestEldCpl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|c:\\desenvolvimento\\projetos\\testeldcpl\\assets\\scripts\\highlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|C:\\desenvolvimento\\projetos\\TestEldCpl\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|c:\\desenvolvimento\\projetos\\testeldcpl\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T01:19:02.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
+              "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T01:01:10.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Highlight.cs",
+              "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Highlight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Highlight.cs",
+              "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Highlight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Highlight.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T00:40:53.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

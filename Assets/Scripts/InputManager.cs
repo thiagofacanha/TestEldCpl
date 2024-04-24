@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
 {
@@ -13,8 +14,9 @@ public class InputManager : MonoBehaviour
     private float rotateValueY = 0f;
     private float rotateValueX = 0f;
     public float rotateSensitivity = 10f;
-    public const float MAX_ROTATE_Y_VALUE = 30;
-    public const float MIN_ROTATE_Y_VALUE = -30f;
+    public const float MAX_ROTATE_Y_VALUE = 45f;
+    public const float MIN_ROTATE_Y_VALUE = -45f;
+    public GameManager gameManager;
 
     private void Awake()
     {
@@ -30,13 +32,17 @@ public class InputManager : MonoBehaviour
         inputActions.PlayerInput.Move.performed += OnMovementPerformed;
         inputActions.PlayerInput.Move.canceled += OnMovementPerformed;
         inputActions.PlayerInput.Camera.performed += OnRotationPerformed;
+        inputActions.PlayerInput.Select.performed += OnClickMouse;
     }
 
     private void OnDisable()
     {
         inputActions.Disable();
-        inputActions.PlayerInput.Move.performed -= OnMovementPerformed;
         inputActions.PlayerInput.Camera.performed -= OnRotationPerformed;
+        inputActions.PlayerInput.Move.started -= OnMovementPerformed;
+        inputActions.PlayerInput.Move.performed -= OnMovementPerformed;
+        inputActions.PlayerInput.Move.canceled -= OnMovementPerformed;
+        inputActions.PlayerInput.Select.performed -= OnClickMouse;
 
     }
     // Start is called before the first frame update
@@ -92,5 +98,14 @@ public class InputManager : MonoBehaviour
 
         print("rotate x: " + rotateValueX + " rotate y: " + rotateValueY);
 
+    }
+
+    private void OnClickMouse(InputAction.CallbackContext context)
+    {
+       if(gameManager.HighLightedObject != null)
+        {
+            Destroy(gameManager.HighLightedObject);
+            gameManager.HighLightedObject = null;
+        }
     }
 }
