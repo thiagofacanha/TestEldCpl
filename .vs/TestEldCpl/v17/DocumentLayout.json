@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|c:\\desenvolvimento\\projetos\\testeldcpl\\assets\\scripts\\inventory\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|c:\\desenvolvimento\\projetos\\testeldcpl\\assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|c:\\desenvolvimento\\projetos\\testeldcpl\\assets\\scripts\\highlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|C:\\desenvolvimento\\projetos\\TestEldCpl\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|c:\\desenvolvimento\\projetos\\testeldcpl\\assets\\scripts\\inventory\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|C:\\desenvolvimento\\projetos\\TestEldCpl\\assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|C:\\desenvolvimento\\projetos\\TestEldCpl\\assets\\scripts\\highlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|C:\\desenvolvimento\\projetos\\TestEldCpl\\assets\\scripts\\inventory\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|C:\\desenvolvimento\\projetos\\TestEldCpl\\assets\\scripts\\inventory\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB51795-04DB-D5FF-91D8-F976B9A04FFB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +37,12 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Inventory\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Item.cs",
@@ -46,25 +50,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\Item.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:49:26.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2024-04-25T00:49:26.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "InventoryItemController.cs",
               "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Inventory\\InventoryItemController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryItemController.cs",
               "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Inventory\\InventoryItemController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryItemController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:27:18.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T00:27:18.907Z"
             },
             {
               "$type": "Document",
@@ -74,27 +72,26 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
               "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\InputManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvzkAAABXAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAACgAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T22:51:19.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
               "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAiwFAAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T22:44:59.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T22:44:59.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -102,18 +99,17 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:19:02.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T01:19:02.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Highlight.cs",
               "DocumentMoniker": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Highlight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Highlight.cs",
               "ToolTip": "C:\\desenvolvimento\\projetos\\TestEldCpl\\Assets\\Scripts\\Highlight.cs",
               "RelativeToolTip": "Assets\\Scripts\\Highlight.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwDQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T00:40:53.037Z",
               "EditorCaption": ""

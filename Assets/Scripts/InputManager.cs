@@ -28,9 +28,7 @@ public class InputManager : MonoBehaviour
     private void OnEnable()
     {
         inputActions.Enable();
-        inputActions.PlayerInput.Move.started += OnMovementPerformed;
         inputActions.PlayerInput.Move.performed += OnMovementPerformed;
-        inputActions.PlayerInput.Move.canceled += OnMovementPerformed;
         inputActions.PlayerInput.Camera.performed += OnRotationPerformed;
         inputActions.PlayerInput.Select.performed += OnClickMouse;
         inputActions.PlayerInput.Menu.performed += OnInventoryKey;
@@ -40,9 +38,7 @@ public class InputManager : MonoBehaviour
     {
         inputActions.Disable();
         inputActions.PlayerInput.Camera.performed -= OnRotationPerformed;
-        inputActions.PlayerInput.Move.started -= OnMovementPerformed;
         inputActions.PlayerInput.Move.performed -= OnMovementPerformed;
-        inputActions.PlayerInput.Move.canceled -= OnMovementPerformed;
         inputActions.PlayerInput.Select.performed -= OnClickMouse;
         inputActions.PlayerInput.Menu.performed -= OnInventoryKey;
 
