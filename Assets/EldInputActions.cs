@@ -53,6 +53,15 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Menu"",
+                    ""type"": ""Button"",
+                    ""id"": ""c8f56f53-3588-4c12-b15b-2701a4f24dea"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -132,6 +141,17 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""78cd49b9-8a33-4725-8260-4fe80dd5e3f8"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Menu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -143,6 +163,7 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
         m_PlayerInput_Move = m_PlayerInput.FindAction("Move", throwIfNotFound: true);
         m_PlayerInput_Camera = m_PlayerInput.FindAction("Camera", throwIfNotFound: true);
         m_PlayerInput_Select = m_PlayerInput.FindAction("Select", throwIfNotFound: true);
+        m_PlayerInput_Menu = m_PlayerInput.FindAction("Menu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -207,6 +228,7 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerInput_Move;
     private readonly InputAction m_PlayerInput_Camera;
     private readonly InputAction m_PlayerInput_Select;
+    private readonly InputAction m_PlayerInput_Menu;
     public struct PlayerInputActions
     {
         private @EldInputActions m_Wrapper;
@@ -214,6 +236,7 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_PlayerInput_Move;
         public InputAction @Camera => m_Wrapper.m_PlayerInput_Camera;
         public InputAction @Select => m_Wrapper.m_PlayerInput_Select;
+        public InputAction @Menu => m_Wrapper.m_PlayerInput_Menu;
         public InputActionMap Get() { return m_Wrapper.m_PlayerInput; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -232,6 +255,9 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
             @Select.started += instance.OnSelect;
             @Select.performed += instance.OnSelect;
             @Select.canceled += instance.OnSelect;
+            @Menu.started += instance.OnMenu;
+            @Menu.performed += instance.OnMenu;
+            @Menu.canceled += instance.OnMenu;
         }
 
         private void UnregisterCallbacks(IPlayerInputActions instance)
@@ -245,6 +271,9 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
             @Select.started -= instance.OnSelect;
             @Select.performed -= instance.OnSelect;
             @Select.canceled -= instance.OnSelect;
+            @Menu.started -= instance.OnMenu;
+            @Menu.performed -= instance.OnMenu;
+            @Menu.canceled -= instance.OnMenu;
         }
 
         public void RemoveCallbacks(IPlayerInputActions instance)
@@ -267,5 +296,6 @@ public partial class @EldInputActions: IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnCamera(InputAction.CallbackContext context);
         void OnSelect(InputAction.CallbackContext context);
+        void OnMenu(InputAction.CallbackContext context);
     }
 }

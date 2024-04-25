@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     private GameObject highLightedObject;
-    public List<GameObject> inventary;
+    public GameObject player;
 
     public GameObject HighLightedObject { get => highLightedObject; set => highLightedObject = value; }
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
